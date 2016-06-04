@@ -1,0 +1,19 @@
+{
+  "name": "lcache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lCache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leemotive/lcache.git"
+  },
+  "author": "wstation@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leemotive/lcache/issues"
+  },
+  "homepage": "https://github.com/leemotive/lcache#readme"
+}
