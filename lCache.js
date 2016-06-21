@@ -77,5 +77,5 @@
         newInstance: function (num) {
             return new LCache(num);
         }
-    }
+    };
 }); 
