@@ -2,8 +2,7 @@
 a cache library
 
 ## usage
-### get instance
-call newInstance to get a cache instance and pass a num as the max size of the cache instance  
+### get instance 
 ```
   import LCache from 'lcache';
   var lcache = new LCache(100);
