@@ -4,7 +4,11 @@
   "description": "",
   "main": "dist/lCache.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf es lib dist && yarn umd && yarn lib && yarn es",
+    "umd": "babel lcache.js --config-file ./.babelrc.umd.js -d dist --filename lcache.js",
+    "lib": "babel lcache.js --config-file ./.babelrc.lib.js -d lib --filename lcache.js",
+    "es": "babel lcache.js --config-file ./.babelrc.es.js -d es --filename lcache.js"
   },
   "husky": {
     "hooks": {
@@ -26,6 +30,7 @@
     "@babel/core": "^7.1.6",
     "@babel/preset-env": "^7.1.6",
     "babel-eslint": "^10.0.1",
+    "babel-preset-minify": "^0.5.0",
     "eslint": "^5.9.0",
     "husky": "^1.2.0",
     "lint-staged": "^8.1.0",
