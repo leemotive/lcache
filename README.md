@@ -1,6 +1,15 @@
 # LCache
 a cache library
 
+## install
+```
+$ npm install lcache
+```
+or
+```
+$ yarn add lcache
+```
+
 ## usage
 ### get instance 
 ```
