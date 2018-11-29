@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/leemotive/lcache.git"
@@ -15,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/leemotive/lcache/issues"
   },
-  "homepage": "https://github.com/leemotive/lcache#readme"
+  "homepage": "https://github.com/leemotive/lcache#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.2"
+  }
 }
