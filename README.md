@@ -12,12 +12,12 @@ $ yarn add lcache
 
 ## usage
 ### new instance 
-```
+```javascript
   import LCache from 'lcache';
   var lcache = new LCache(100);
 ```
 or
-```
+```javascript
 const LCache = require('lcache').default;
 ```
 
