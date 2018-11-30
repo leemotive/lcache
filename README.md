@@ -11,10 +11,14 @@ $ yarn add lcache
 ```
 
 ## usage
-### get instance 
+### new instance 
 ```
   import LCache from 'lcache';
   var lcache = new LCache(100);
+```
+or
+```
+const LCache = require('lcache').default;
 ```
 
 ### put a new entry
